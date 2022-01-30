@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import Login from './components/Login';
-import Logout from './components/Logout';
-import LoginHooks from './components/LoginHooks';
-import LogoutHooks from './components/LogoutHooks';
+import Logout from "./components/Logout";
 
 function App() {
   return (
@@ -12,15 +10,6 @@ function App() {
       <Login />
       <br />
       <Logout />
-      <h2>The Hooks way</h2>
-      <LoginHooks />
-      <LogoutHooks />
-      <br />
-      If it does helped you feel free to star{' '}
-      <a href="https://github.com/Sivanesh-S/react-google-authentication">
-        Github Repo
-      </a>{' '}
-      😉
     </div>
   );
 }
